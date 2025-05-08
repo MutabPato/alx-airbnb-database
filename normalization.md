@@ -1,6 +1,6 @@
 ## Normalization
 
-This document provides an explanation of steps taken to ensure the database is in the third normal form (3NF) which was achieved by confirming:
+This document provides an explanation of steps taken to ensure the database is in the third normal form (3NF) which was achieved by confirming that:
 
 **(1NF - First Normal Form)**
 
