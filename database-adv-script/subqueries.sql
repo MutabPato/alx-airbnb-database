@@ -1,2 +1,2 @@
-SELECT property.name FROM property WHERE id IN ( SELECT property_id FROM review WHERE rating > 4 );
+SELECT property.name FROM property WHERE id IN ( SELECT property_id FROM review GROUP BY property_id HAVING AVG(rating) > 4.0 );
 SELECT u.first_name FROM users u JOIN ( SELECT user_id FROM booking GROUP BY user_id HAVING COUNT(*) > 3 ) AS b ON u.id=b.user_id; 
