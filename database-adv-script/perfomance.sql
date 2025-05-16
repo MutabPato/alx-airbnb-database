@@ -1,4 +1,4 @@
-SELECT 
+EXPLAIN ANALYZE SELECT 
 booking.*,
 users.first_name,
 users.last_name, 
